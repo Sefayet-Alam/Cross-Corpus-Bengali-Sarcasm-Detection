@@ -1,0 +1,6 @@
+role,system,macro_f1,accuracy
+best overall (ensemble),ensemble:stacking_LR,0.8115,
+proposed single model (deployable),09b_fgm_awp (tuned FGM+AWP),0.8038,0.8041
+strong single-model baseline,05 vanilla BanglaBERT full-FT,0.8025,0.803
+reference (Lora reported),Lora et al. — best REPORTED (Table 9),0.7547,
+reference (Lora reproduced),Lora et al. — best REPRODUCED (04_bengali-bert),0.7444,

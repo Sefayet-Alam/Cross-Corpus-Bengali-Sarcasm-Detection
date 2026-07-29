@@ -1,0 +1,36 @@
+Model: StackedLSTM+CNN+GloVe
+Protocol: same_split
+Learning rate: 1e-05
+Batch size: 16
+Max length: 100
+Vocab size: 10000
+Embedding dim: 300
+GloVe path: /Users/sefayet/Desktop/Github/Sarcasm_detection/01_data/external/glove/bn_glove.39M.300d.txt
+GloVe coverage: 0.890989
+Epochs ran: 12
+Best epoch: 10
+Best val_loss: 0.563330
+Time seconds: 624.05
+
+Test metrics:
+test_accuracy: 0.710886
+test_macro_precision: 0.713179
+test_macro_recall: 0.710865
+test_macro_f1: 0.710093
+test_weighted_precision: 0.713170
+test_weighted_recall: 0.710886
+test_weighted_f1: 0.710099
+
+Confusion matrix:
+[[844 437]
+ [304 978]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.7352    0.6589    0.6949      1281
+           1     0.6912    0.7629    0.7253      1282
+
+    accuracy                         0.7109      2563
+   macro avg     0.7132    0.7109    0.7101      2563
+weighted avg     0.7132    0.7109    0.7101      2563

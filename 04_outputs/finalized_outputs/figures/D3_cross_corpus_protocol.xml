@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Worked Example" id="K0xy4hxCc8YIZXumZxqR">
+    <mxGraphModel dx="1423" dy="1001" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="280" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-43" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=26;fontColor=#000000;fontStyle=1;whiteSpace=wrap;spacing=0;" value="Cross-corpus evaluation protocol" vertex="1">
+          <mxGeometry height="30" width="500" x="17" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-44" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=left;verticalAlign=top;spacing=10;" value="" vertex="1">
+          <mxGeometry height="493" width="440" x="47" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-45" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;whiteSpace=wrap;spacing=0;" value="Protocol" vertex="1">
+          <mxGeometry height="20" width="120" x="75" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-46" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;1. Fit on source corpus X&lt;br&gt;&lt;/b&gt;Train split only; keep the fitted classifier unchanged." vertex="1">
+          <mxGeometry height="92" width="360" x="93" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-47" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;2. Block cross-corpus leakage&lt;br&gt;&lt;/b&gt;Remove target-test rows whose normalized key occurs in source-train." vertex="1">
+          <mxGeometry height="104" width="360" x="93" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-48" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="&lt;b&gt;3. Evaluate on target corpus Y&lt;br&gt;&lt;/b&gt;Score the remaining target test split as zero-shot transfer." vertex="1">
+          <mxGeometry height="92" width="360" x="93" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-49" edge="1" parent="1" source="DSSoEVEJ0n-xpCNvry4o-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Comic Sans MS;fontSize=16;" target="DSSoEVEJ0n-xpCNvry4o-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-50" edge="1" parent="1" source="DSSoEVEJ0n-xpCNvry4o-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontFamily=Comic Sans MS;fontSize=16;" target="DSSoEVEJ0n-xpCNvry4o-48" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-51" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=left;verticalAlign=top;spacing=10;" value="" vertex="1">
+          <mxGeometry height="587" width="819" x="522" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-52" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;fontStyle=1;whiteSpace=wrap;spacing=0;" value="3 × 3 transfer matrix" vertex="1">
+          <mxGeometry height="20" width="324" x="822" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-53" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=18;fontColor=#000000;fontStyle=0;whiteSpace=wrap;spacing=0;" value="Rows = source corpora; columns = target corpora" vertex="1">
+          <mxGeometry height="24" width="471" x="704" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-54" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="56" width="120" x="530" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-55" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Ben-Sarc" vertex="1">
+          <mxGeometry height="56" width="220" x="650" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-56" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="BanglaSarc" vertex="1">
+          <mxGeometry height="56" width="220" x="870" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-57" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="BanglaSarc3" vertex="1">
+          <mxGeometry height="56" width="220" x="1090" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-58" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="Ben-Sarc" vertex="1">
+          <mxGeometry height="112" width="120" x="530" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-59" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="BanglaSarc" vertex="1">
+          <mxGeometry height="112" width="120" x="530" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-60" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" value="BanglaSarc3" vertex="1">
+          <mxGeometry height="112" width="120" x="530" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-61" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=5;" value="In-domain&#xa;same corpus" vertex="1">
+          <mxGeometry height="112" width="220" x="650" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-62" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Zero-shot&#xa;Ben-Sarc → BanglaSarc" vertex="1">
+          <mxGeometry height="112" width="220" x="870" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-63" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Zero-shot&#xa;Ben-Sarc → BanglaSarc3" vertex="1">
+          <mxGeometry height="112" width="220" x="1090" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-64" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Zero-shot&#xa;BanglaSarc → Ben-Sarc" vertex="1">
+          <mxGeometry height="112" width="220" x="650" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-65" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=5;" value="In-domain&#xa;same corpus" vertex="1">
+          <mxGeometry height="112" width="220" x="870" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-66" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Zero-shot&#xa;BanglaSarc → BanglaSarc3" vertex="1">
+          <mxGeometry height="112" width="220" x="1090" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-67" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Zero-shot&#xa;BanglaSarc3 → Ben-Sarc" vertex="1">
+          <mxGeometry height="112" width="220" x="650" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-68" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Zero-shot&#xa;BanglaSarc3 → BanglaSarc" vertex="1">
+          <mxGeometry height="112" width="220" x="870" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-69" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#000000;strokeWidth=1.3;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=5;" value="In-domain&#xa;same corpus" vertex="1">
+          <mxGeometry height="112" width="220" x="1090" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-70" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=4;" value="Diagonal = in-domain evaluation; off-diagonal = zero-shot transfer." vertex="1">
+          <mxGeometry height="101" width="230" x="616" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="DSSoEVEJ0n-xpCNvry4o-71" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;" value="Key result&#xa;Transfer performance drops sharply; the worst-case macro-F1 decline reaches 63 points." vertex="1">
+          <mxGeometry height="102" width="394" x="893" y="582" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

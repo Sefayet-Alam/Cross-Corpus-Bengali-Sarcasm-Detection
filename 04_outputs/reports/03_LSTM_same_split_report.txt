@@ -1,0 +1,36 @@
+Model: LSTM
+Protocol: same_split
+Learning rate: 0.0001
+Batch size: 16
+Max length: 100
+Vocab size: 10000
+Embedding dim: 300
+GloVe path: /Users/sefayet/Desktop/Github/Sarcasm_detection/01_data/external/glove/bn_glove.39M.300d.txt
+GloVe coverage: 0.890989
+Epochs ran: 3
+Best epoch: 1
+Best val_loss: 0.565354
+Time seconds: 140.84
+
+Test metrics:
+test_accuracy: 0.714787
+test_macro_precision: 0.722257
+test_macro_recall: 0.714752
+test_macro_f1: 0.712348
+test_weighted_precision: 0.722242
+test_weighted_recall: 0.714787
+test_weighted_f1: 0.712359
+
+Confusion matrix:
+[[ 798  483]
+ [ 248 1034]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.7629    0.6230    0.6859      1281
+           1     0.6816    0.8066    0.7388      1282
+
+    accuracy                         0.7148      2563
+   macro avg     0.7223    0.7148    0.7123      2563
+weighted avg     0.7222    0.7148    0.7124      2563

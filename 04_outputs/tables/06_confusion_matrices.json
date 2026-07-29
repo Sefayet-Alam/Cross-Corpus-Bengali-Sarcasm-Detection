@@ -1,0 +1,237 @@
+{
+  "banglabert_ben_sarc_binary": [
+    [
+      981,
+      300
+    ],
+    [
+      217,
+      1065
+    ]
+  ],
+  "banglabert_banglasarc_binary": [
+    [
+      292,
+      6
+    ],
+    [
+      5,
+      161
+    ]
+  ],
+  "banglabert_banglasarc3_binary": [
+    [
+      274,
+      122
+    ],
+    [
+      86,
+      309
+    ]
+  ],
+  "banglabert_banglasarc3_ternary": [
+    [
+      189,
+      114,
+      93
+    ],
+    [
+      70,
+      289,
+      42
+    ],
+    [
+      67,
+      43,
+      285
+    ]
+  ],
+  "muril_ben_sarc_binary": [
+    [
+      1031,
+      250
+    ],
+    [
+      270,
+      1012
+    ]
+  ],
+  "muril_banglasarc_binary": [
+    [
+      291,
+      7
+    ],
+    [
+      7,
+      159
+    ]
+  ],
+  "muril_banglasarc3_binary": [
+    [
+      281,
+      115
+    ],
+    [
+      85,
+      310
+    ]
+  ],
+  "muril_banglasarc3_ternary": [
+    [
+      179,
+      126,
+      91
+    ],
+    [
+      74,
+      282,
+      45
+    ],
+    [
+      72,
+      40,
+      283
+    ]
+  ],
+  "xlm-roberta_ben_sarc_binary": [
+    [
+      992,
+      289
+    ],
+    [
+      273,
+      1009
+    ]
+  ],
+  "xlm-roberta_banglasarc_binary": [
+    [
+      279,
+      19
+    ],
+    [
+      10,
+      156
+    ]
+  ],
+  "xlm-roberta_banglasarc3_binary": [
+    [
+      275,
+      121
+    ],
+    [
+      93,
+      302
+    ]
+  ],
+  "xlm-roberta_banglasarc3_ternary": [
+    [
+      206,
+      110,
+      80
+    ],
+    [
+      79,
+      274,
+      48
+    ],
+    [
+      71,
+      41,
+      283
+    ]
+  ],
+  "mbert_ben_sarc_binary": [
+    [
+      980,
+      301
+    ],
+    [
+      358,
+      924
+    ]
+  ],
+  "mbert_banglasarc_binary": [
+    [
+      281,
+      17
+    ],
+    [
+      8,
+      158
+    ]
+  ],
+  "mbert_banglasarc3_binary": [
+    [
+      266,
+      130
+    ],
+    [
+      84,
+      311
+    ]
+  ],
+  "mbert_banglasarc3_ternary": [
+    [
+      213,
+      97,
+      86
+    ],
+    [
+      109,
+      237,
+      55
+    ],
+    [
+      106,
+      36,
+      253
+    ]
+  ],
+  "sagorsarker-bb_ben_sarc_binary": [
+    [
+      975,
+      306
+    ],
+    [
+      332,
+      950
+    ]
+  ],
+  "sagorsarker-bb_banglasarc_binary": [
+    [
+      286,
+      12
+    ],
+    [
+      12,
+      154
+    ]
+  ],
+  "sagorsarker-bb_banglasarc3_binary": [
+    [
+      290,
+      106
+    ],
+    [
+      103,
+      292
+    ]
+  ],
+  "sagorsarker-bb_banglasarc3_ternary": [
+    [
+      217,
+      87,
+      92
+    ],
+    [
+      106,
+      245,
+      50
+    ],
+    [
+      102,
+      48,
+      245
+    ]
+  ]
+}

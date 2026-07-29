@@ -1,0 +1,14 @@
+{
+  "pipeline": "P1_fullft_fgm",
+  "fgm_eps": 0.5,
+  "epochs": 8,
+  "batch": 32,
+  "config": {
+    "model": "csebuetnlp/banglabert",
+    "lr": 2e-05,
+    "max_len": 128,
+    "adv": "fgm",
+    "name": "FINAL_proposed",
+    "fgm_eps": 0.5
+  }
+}

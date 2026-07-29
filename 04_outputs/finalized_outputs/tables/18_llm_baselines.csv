@@ -1,0 +1,9 @@
+model,task,setting,n_eval,macro_f1,accuracy,boot_mean,ci95_lo,ci95_hi,macro_f1_parsed_only,parse_ok_rate,parse_regex_rate,normalizer_rescue_rate,unresolved_rate,api_error_rate,prompt_lang,fewshot_per_class
+google/gemini-2.5-flash,banglasarc3_binary,few_shot,791,0.6691,0.6713,0.6693,0.6373,0.7006,0.6691,1.0,1.0,0.0,0.0,0.0,en,3
+google/gemini-2.5-flash,banglasarc3_binary,zero_shot,791,0.6011,0.6157,0.6017,0.569,0.6345,0.6011,1.0,1.0,0.0,0.0,0.0,en,0
+google/gemini-2.5-flash,banglasarc3_ternary,few_shot,1192,0.5352,0.5344,0.5346,0.5074,0.5634,0.5352,1.0,1.0,0.0,0.0,0.0,en,3
+google/gemini-2.5-flash,banglasarc3_ternary,zero_shot,1192,0.4452,0.4606,0.4447,0.416,0.4731,0.4452,1.0,1.0,0.0,0.0,0.0,en,0
+google/gemini-2.5-flash,banglasarc_binary,few_shot,464,0.7977,0.8103,0.7967,0.7589,0.8325,0.7977,1.0,1.0,0.0,0.0,0.0,en,3
+google/gemini-2.5-flash,banglasarc_binary,zero_shot,464,0.646,0.681,0.6441,0.5999,0.6917,0.646,1.0,1.0,0.0,0.0,0.0,en,0
+google/gemini-2.5-flash,ben_sarc_binary,few_shot,2563,0.7557,0.7561,0.7556,0.739,0.7734,0.7557,1.0,1.0,0.0,0.0,0.0,en,3
+google/gemini-2.5-flash,ben_sarc_binary,zero_shot,2563,0.7163,0.7167,0.7162,0.6987,0.7346,0.7162,0.9996,0.9996,0.0,0.0004,0.0004,en,0

@@ -1,0 +1,13 @@
+variant,split,n,class_proportions
+ben_sarc_binary,train,20498,"{""0"": 0.5, ""1"": 0.5}"
+ben_sarc_binary,val,2562,"{""0"": 0.5, ""1"": 0.5}"
+ben_sarc_binary,test,2563,"{""0"": 0.4998, ""1"": 0.5002}"
+banglasarc_binary,train,3708,"{""0"": 0.6419, ""1"": 0.3581}"
+banglasarc_binary,val,463,"{""0"": 0.6415, ""1"": 0.3585}"
+banglasarc_binary,test,464,"{""0"": 0.6422, ""1"": 0.3578}"
+banglasarc3_binary,train,6328,"{""0"": 0.5008, ""1"": 0.4992}"
+banglasarc3_binary,val,791,"{""0"": 0.5006, ""1"": 0.4994}"
+banglasarc3_binary,test,791,"{""0"": 0.5006, ""1"": 0.4994}"
+banglasarc3_ternary,train,9528,"{""0"": 0.3326, ""1"": 0.3359, ""2"": 0.3315}"
+banglasarc3_ternary,val,1191,"{""0"": 0.3325, ""1"": 0.3359, ""2"": 0.3317}"
+banglasarc3_ternary,test,1192,"{""0"": 0.3322, ""1"": 0.3364, ""2"": 0.3314}"

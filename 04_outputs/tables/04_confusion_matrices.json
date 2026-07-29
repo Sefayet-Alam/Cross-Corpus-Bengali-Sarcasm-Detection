@@ -1,0 +1,72 @@
+{
+  "bengali-bert_ben_sarc_binary": [
+    [
+      964,
+      317
+    ],
+    [
+      338,
+      944
+    ]
+  ],
+  "sagorsarker-bb_banglasarc_binary": [
+    [
+      286,
+      12
+    ],
+    [
+      24,
+      142
+    ]
+  ],
+  "mbert_banglasarc_binary": [
+    [
+      276,
+      22
+    ],
+    [
+      21,
+      145
+    ]
+  ],
+  "bengali-bert_banglasarc_binary": [
+    [
+      291,
+      7
+    ],
+    [
+      10,
+      156
+    ]
+  ],
+  "sagorsarker-bb_banglasarc3_binary": [
+    [
+      269,
+      127
+    ],
+    [
+      108,
+      287
+    ]
+  ],
+  "mbert_banglasarc3_binary": [
+    [
+      235,
+      161
+    ],
+    [
+      82,
+      313
+    ]
+  ],
+  "bengali-bert_banglasarc3_binary": [
+    [
+      245,
+      151
+    ],
+    [
+      67,
+      328
+    ]
+  ]
+}

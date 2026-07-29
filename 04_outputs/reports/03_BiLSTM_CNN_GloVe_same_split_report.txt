@@ -1,0 +1,36 @@
+Model: BiLSTM+CNN+GloVe
+Protocol: same_split
+Learning rate: 1e-05
+Batch size: 16
+Max length: 100
+Vocab size: 10000
+Embedding dim: 300
+GloVe path: /Users/sefayet/Desktop/Github/Sarcasm_detection/01_data/external/glove/bn_glove.39M.300d.txt
+GloVe coverage: 0.890989
+Epochs ran: 14
+Best epoch: 12
+Best val_loss: 0.566055
+Time seconds: 703.84
+
+Test metrics:
+test_accuracy: 0.703082
+test_macro_precision: 0.703512
+test_macro_recall: 0.703073
+test_macro_f1: 0.702920
+test_weighted_precision: 0.703508
+test_weighted_recall: 0.703082
+test_weighted_f1: 0.702922
+
+Confusion matrix:
+[[871 410]
+ [351 931]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.7128    0.6799    0.6960      1281
+           1     0.6943    0.7262    0.7099      1282
+
+    accuracy                         0.7031      2563
+   macro avg     0.7035    0.7031    0.7029      2563
+weighted avg     0.7035    0.7031    0.7029      2563

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Deep-learning reproduction results on Ben-Sarc under the same_split protocol.}
+\label{tab:dl-reproduction-same-split}
+\begin{tabular}{llllllll}
+\toprule
+label & test_accuracy & test_macro_f1 & test_weighted_f1 & reference_accuracy & reference_f1 & gap_vs_reference_accuracy & gap_vs_reference_macro_f1 \\
+\midrule
+LSTM & 0.7148 & 0.7123 & 0.7124 & 0.7248 & 0.7253 & -0.0100 & -0.0130 \\
+LSTM+CNN & 0.6898 & 0.6781 & 0.6782 & 0.6940 & 0.6939 & -0.0042 & -0.0158 \\
+LSTM+CNN+GloVe & 0.7097 & 0.7089 & 0.7089 & 0.6609 & 0.6595 & 0.0488 & 0.0494 \\
+StackedLSTM+CNN+GloVe & 0.7109 & 0.7101 & 0.7101 & 0.6591 & 0.6584 & 0.0518 & 0.0517 \\
+BiLSTM+CNN+GloVe & 0.7031 & 0.7029 & 0.7029 & 0.6558 & 0.6575 & 0.0473 & 0.0454 \\
+BiLSTM+GloVe & 0.7132 & 0.7127 & 0.7127 & 0.6164 & 0.6024 & 0.0968 & 0.1103 \\
+\bottomrule
+\end{tabular}
+\end{table}

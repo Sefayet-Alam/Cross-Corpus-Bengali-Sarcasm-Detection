@@ -1,0 +1,4 @@
+encoder,task,test_macro_f1,reference_f1,gap_vs_reference_f1
+sagorsarker-bb,ben_sarc_binary,0.6921248108215559,0.6641,0.0280248108215558
+mbert,ben_sarc_binary,0.6915927623754655,0.6547,0.0368927623754655
+bengali-bert,ben_sarc_binary,0.7444245466554436,0.7547,-0.0102754533445564

@@ -1,0 +1,2 @@
+glove_path,embed_dim,usable_vocab_size,hits,misses,coverage
+/Users/sefayet/Desktop/Github/Sarcasm_detection/01_data/external/glove/bn_glove.39M.300d.txt,300,10000,8909,1090,0.890989098909891

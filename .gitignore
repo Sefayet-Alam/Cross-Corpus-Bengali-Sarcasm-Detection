@@ -1,0 +1,144 @@
+# ============================================================
+# .gitignore — Bengali Sarcasm Detection Thesis v2
+# Rule: source code, notebooks, README, configs are tracked.
+#       Generated outputs, model binaries, caches, env cruft are excluded.
+# ============================================================
+# ── Corpus and derived text data: never commit ──────────────────────────────
+/01_data/raw/
+/01_data/processed/
+/01_data/interim/*
+
+# Allow only non-text split manifests, if these contain IDs/hashes only
+!/01_data/interim/split_manifests/
+!/01_data/interim/split_manifests/**
+
+# ── Generated prediction/ofutput files ───────────────────────────────────────
+/04_outputs/test_awp/
+/04_outputs/**/14_high_conf_errors.csv
+
+# Ignore generated predictions by default
+/04_outputs/predictions/*
+
+# Re-allow only sanitized public predictions after auditing them
+!/04_outputs/predictions/18_multiseed_cross_corpus/
+!/04_outputs/predictions/18_multiseed_cross_corpus/*.csv
+
+# Ignore temporary/generated output directories
+/04_outputs/**/runs/
+/04_outputs/**/checkpoints/
+/04_outputs/**/tmp/
+/04_outputs/**/cache/
+
+# ── Model checkpoints & weights ─────────────────────────────────────────────
+archives/
+03_checkpoints/
+03_models/
+**/*checkpoint*/
+**/checkpoint-*/
+**/checkpoints/
+**/models/
+**/runs/
+**/trainer_state.json
+*.keras
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.h5
+bn_glove.39M.300d.txt
+bn_glove.39M.100d.txt
+
+# Keep sklearn models only if small and intentional
+# *.pkl
+# *.pickle
+# *.joblib
+
+# ── HuggingFace & training caches ───────────────────────────────────────────
+_tmp/
+.cache/
+hf_cache/
+huggingface/
+**/hf_cache/
+**/train_cache/
+**/tmp_trainer/
+**/transformers_cache/
+
+wandb/
+lightning_logs/
+mlruns/
+
+# ── Python environment ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+env/
+venv/
+.venv/
+ENV/
+
+*.egg-info/
+dist/
+build/
+.eggs/
+site-packages/
+
+# ── Jupyter internals ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── OS cruft ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+
+# ── IDE / editor ────────────────────────────────────────────────────────────
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Keep .vscode tracked if useful
+# .vscode/
+
+# ── LaTeX build artefacts ───────────────────────────────────────────────────
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# ── Archives / secrets ──────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.7z
+
+.env
+secrets.py
+api_keys.py
+
+*.log
+
+# Local raw data
+/01_data/raw/
+
+# ── Quarantine: never publish ───────────────────────────────────────────────
+.private/
+.private/**
+06_thesis/
+05_literature/pdfs/
+/01_data/external/
+all_dir.txt

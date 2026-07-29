@@ -1,0 +1,118 @@
+{
+  "generated_utc": "2026-07-29T18:40:49.121793+00:00",
+  "config_hash": "6970de89ef36b0ad",
+  "git": {
+    "commit": "a64ee91ba5ee8b30b94f66437afb4228bce5414b",
+    "dirty": true
+  },
+  "files": {
+    "04_outputs/finalized_outputs/figures/F19_dann_vs_pooled.pdf": {
+      "bytes": 16817,
+      "sha256": "8acf4f6602c181409692a2714c226ee1f46e1a8e858f0d7c936dc643fa211327"
+    },
+    "04_outputs/finalized_outputs/figures/F19_dann_vs_pooled.png": {
+      "bytes": 166448,
+      "sha256": "f2f95f1a96f32f86ae67c05b511fd0d7783ed687847eec8a9d5694b261d48840"
+    },
+    "04_outputs/finalized_outputs/figures/F19_fgm_vs_vanilla_10seed.pdf": {
+      "bytes": 15789,
+      "sha256": "b205ed7a8bc7355af557fe3f6b56446af815258f576791f50b9be4daccd6bd7b"
+    },
+    "04_outputs/finalized_outputs/figures/F19_fgm_vs_vanilla_10seed.png": {
+      "bytes": 237946,
+      "sha256": "e35377321bd356a2e1992f2d3d3732440cb378719f0fa9319af519dae70932c5"
+    },
+    "04_outputs/finalized_outputs/figures/F19_label_efficiency.pdf": {
+      "bytes": 22067,
+      "sha256": "07ca732182058f58c99e951bbe83b17a9eceb6781f71984efbc040980b851cca"
+    },
+    "04_outputs/finalized_outputs/figures/F19_label_efficiency.png": {
+      "bytes": 426875,
+      "sha256": "b930bf6f73108ef1c5418956d1a485155bec94b7f59058b8c53689530f771da8"
+    },
+    "04_outputs/finalized_outputs/figures/F19_loco_vs_single_source.pdf": {
+      "bytes": 14573,
+      "sha256": "88c0963ef234e59977fca8914871fa349d60543f265510023b320148e977b421"
+    },
+    "04_outputs/finalized_outputs/figures/F19_loco_vs_single_source.png": {
+      "bytes": 181174,
+      "sha256": "117eec8c434718ebd0075492c1fa669d72bc761cd53f2b6ec2f83074b046c594"
+    },
+    "04_outputs/finalized_outputs/figures/F19_near_duplicate_sensitivity.pdf": {
+      "bytes": 15020,
+      "sha256": "1c5e0139fb6b8b30d647a2d47da1bd3a892c3d93b0959b73b31cc3f6f45956f2"
+    },
+    "04_outputs/finalized_outputs/figures/F19_near_duplicate_sensitivity.png": {
+      "bytes": 170223,
+      "sha256": "f4c050f073328ae311fcc56191d30400d9cee10f753046f0ef68512f8eef9592"
+    },
+    "04_outputs/finalized_outputs/figures/F19_seed_stability_10.pdf": {
+      "bytes": 20963,
+      "sha256": "3d13277efd4673e240d08ad80c6bc1dec3098b27e30d00e5b857bb4591e09594"
+    },
+    "04_outputs/finalized_outputs/figures/F19_seed_stability_10.png": {
+      "bytes": 496282,
+      "sha256": "72799d936d4feafaec473eaf9ab88e9629abea93116636da5b1bc4b1c9d6ddf0"
+    },
+    "04_outputs/finalized_outputs/figures/F19_threshold_recalibration.pdf": {
+      "bytes": 14714,
+      "sha256": "8f327937e6992848f996fab3d5487787dabd9a612d98d3227beca6957641dab9"
+    },
+    "04_outputs/finalized_outputs/figures/F19_threshold_recalibration.png": {
+      "bytes": 187096,
+      "sha256": "c443a6a9cc246ad43a8b4b87023e9668d21e303e6d24c59ccd2f83589c35b239"
+    },
+    "04_outputs/finalized_outputs/tables/19_claim_ledger.csv": {
+      "bytes": 3054,
+      "sha256": "a3d930584bf4dbb04f2e1428dc62fd0d7403d7d79e94953f9a5fd53418c2e2db"
+    },
+    "04_outputs/finalized_outputs/tables/19_dann_loco_runs.csv": {
+      "bytes": 9992,
+      "sha256": "e8ac04678e0c8a88b5dd43119f0c0a74e7745b902ea9f7db94b7578f53127731"
+    },
+    "04_outputs/finalized_outputs/tables/19_fgm_vs_vanilla_10seed_tests.csv": {
+      "bytes": 1869,
+      "sha256": "c1a3a60a744a5c9847aff5f7d5d239364bea82351bbc41c3b549190e4c049906"
+    },
+    "04_outputs/finalized_outputs/tables/19_label_efficiency_k_to_reach.csv": {
+      "bytes": 740,
+      "sha256": "d0f4918b51f0d363fc314f3329a691453141dce2bd4fbf73a3c73e27929b7398"
+    },
+    "04_outputs/finalized_outputs/tables/19_label_efficiency_summary.csv": {
+      "bytes": 7675,
+      "sha256": "a9c42ecec14515c4880b33bde00b32f2979ee55efb035e4f9928e00368c7b0db"
+    },
+    "04_outputs/finalized_outputs/tables/19_loco_pooled_summary.csv": {
+      "bytes": 5896,
+      "sha256": "b1a8ba97ab04457d51346866bc0753c9f60af78015399ada0abfb2dd5dc29fde"
+    },
+    "04_outputs/finalized_outputs/tables/19_near_duplicate_audit.csv": {
+      "bytes": 490,
+      "sha256": "40bc614be261de6bc358d851ebf992dbd4944e336d0a76bf66237acf85a3fc13"
+    },
+    "04_outputs/finalized_outputs/tables/19_near_duplicate_sensitivity.csv": {
+      "bytes": 1385,
+      "sha256": "049972b03302a2e9f2757ea65ae003a04c2941333546f6dc73aa40ce34ed4599"
+    },
+    "04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv": {
+      "bytes": 1650,
+      "sha256": "aa2efab94a221c8456597f3b50548ab7dc9a2a66347f491b4407fb4b2855f65c"
+    },
+    "04_outputs/finalized_outputs/tables/19_run_config.json": {
+      "bytes": 2291,
+      "sha256": "e7a012188d52b6db210f90a5cf66a69966e9d056e8dd703facd3976b5b1362fb"
+    },
+    "04_outputs/finalized_outputs/tables/19_singlesource_10seed_runs.csv": {
+      "bytes": 118340,
+      "sha256": "b5b675afeae04b074e69525742e07466e70dc292cbe142d0ff4a69d8d0240cde"
+    },
+    "04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv": {
+      "bytes": 5038,
+      "sha256": "7446cc01d4d6db16f8715076892fc3f7b1a981c8c99b35ee212bb63e793def33"
+    },
+    "04_outputs/finalized_outputs/tables/19_threshold_recalibration.csv": {
+      "bytes": 3121,
+      "sha256": "f4a808e0204ce6847180a23a2af750a9c9c724c1cbaf7773ac7f97e0531e8393"
+    }
+  }
+}

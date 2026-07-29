@@ -1,0 +1,43 @@
+method,family,test_macro_f1,source_file,source_task
+11_stacking_LR,This work,0.811539670662671,11_ensemble_results.csv,ben_sarc_binary
+11_soft_vote_all,This work,0.8091033420969942,11_ensemble_results.csv,ben_sarc_binary
+11_hard_vote_all,This work,0.8090962472153995,11_ensemble_results.csv,ben_sarc_binary
+09b_fgm_awp,This work,0.803831146337239,09b_fgm_awp_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+05_baseline_banglabert,This work,0.8024879244045522,05_baseline_banglabert_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+08_P6_maxlen192_fgm_llrd,This work,0.8021540984280471,08_P6_maxlen192_fgm_llrd_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+11_soft_vote_top5,This work,0.800626887526311,11_ensemble_results.csv,ben_sarc_binary
+08_P7_fgm_llrd_ls,This work,0.8003079942030003,08_pipeline_search.csv,ben_sarc_binary
+08_P3_fullft_fgm_llrd,This work,0.7998853224999696,08_pipeline_search.csv,ben_sarc_binary
+07_fgm_awp,This work,0.7993613713427954,07_adversarial_summary.csv,ben_sarc_binary
+08_P1_fullft_fgm,This work,0.7992101075206091,08_P1_fullft_fgm_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+07_fgm_e05,This work,0.7991166133776073,07_adversarial_summary.csv,ben_sarc_binary
+07_freelb_k3,This work,0.7983964497257903,07_freelb_k3_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+11_soft_vote_top3,This work,0.7982813214972088,11_ensemble_results.csv,ben_sarc_binary
+06_banglabert,This work,0.798066356564008,06_banglabert_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+06_muril,This work,0.7971016081337172,06_muril_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+08_P8_large_fgm_llrd,This work,0.7969740177439797,08_pipeline_search.csv,ben_sarc_binary
+09_FINAL_proposed (seed-mean),This work,0.796,09_final_multiseed_summary.json,ben_sarc_binary
+08_P4_freeze6_fgm,This work,0.7938347366918795,08_pipeline_search.csv,ben_sarc_binary
+08_P2_fullft_llrd,This work,0.7920081547576905,08_P2_fullft_llrd_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+07_awp,This work,0.7901976987356811,07_awp_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+08_P5_freeze6_fgm_llrd,This work,0.7845667507217775,08_pipeline_search.csv,ben_sarc_binary
+08_P0_fullft,This work,0.7818578269509195,08_P0_fullft_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+06_xlm-roberta,This work,0.7807160647192435,06_multi_backbone_summary.csv,ben_sarc_binary
+06_sagorsarker-bb,This work,0.7510492751293172,06_sagorsarker-bb_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+04_bengali-bert,Lora et al. (reproduced),0.7444245466554436,04_bengali-bert_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+06_mbert,This work,0.7427566311844971,06_multi_backbone_summary.csv,ben_sarc_binary
+03_BiLSTM_GloVe_same_split,Lora et al. (reproduced),0.7126974780188533,03_dl_results.csv,ben_sarc_binary
+03_LSTM_same_split,Lora et al. (reproduced),0.7123484613649697,03_dl_results.csv,ben_sarc_binary
+03_StackedLSTM_CNN_GloVe_same_split,Lora et al. (reproduced),0.7100932329091699,03_dl_results.csv,ben_sarc_binary
+03_LSTM_CNN_GloVe_same_split,Lora et al. (reproduced),0.7088588577584627,03_dl_results.csv,ben_sarc_binary
+03_BiLSTM_CNN_GloVe_same_split,Lora et al. (reproduced),0.7029195160241564,03_dl_results.csv,ben_sarc_binary
+04_sagorsarker-bb,Lora et al. (reproduced),0.6921248108215559,04_frozen_transfer_results.csv,ben_sarc_binary
+04_mbert,Lora et al. (reproduced),0.6915927623754655,04_mbert_ben_sarc_binary_test_predictions.csv,ben_sarc_binary
+03_LSTM_CNN_same_split,Lora et al. (reproduced),0.6781485825307129,03_dl_results.csv,ben_sarc_binary
+02_classical_MultinomialNB,Lora et al. (reproduced),0.6602,02_classical_ml_results.csv,ben_sarc_binary
+02_classical_KernelSVM,Lora et al. (reproduced),0.6586,02_classical_ml_results.csv,ben_sarc_binary
+02_classical_RandomForest,Lora et al. (reproduced),0.6508,02_classical_ml_results.csv,ben_sarc_binary
+02_classical_LogisticRegression,Lora et al. (reproduced),0.6504,02_classical_ml_results.csv,ben_sarc_binary
+02_classical_LinearSVM,Lora et al. (reproduced),0.6465,02_classical_ml_results.csv,ben_sarc_binary
+02_classical_DecisionTree,Lora et al. (reproduced),0.5837,02_classical_ml_results.csv,ben_sarc_binary
+02_classical_KNN,Lora et al. (reproduced),0.5601,02_classical_ml_results.csv,ben_sarc_binary

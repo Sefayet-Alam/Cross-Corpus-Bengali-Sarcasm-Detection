@@ -1,0 +1,7 @@
+{
+  "analysis": "exploratory Spearman association over six directed off-diagonal cells",
+  "n_cells": 6,
+  "rho": 0.4285714285714286,
+  "p_value": 0.3965014577259473,
+  "caution": "descriptive association; too few domain pairs for causal inference"
+}

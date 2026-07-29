@@ -1,0 +1,10 @@
+source,target,in_domain,n_eval_total,n_removed_leak,n_eval_clean,macro_f1,accuracy
+ben_sarc_binary,ben_sarc_binary,True,2563,0,2563,0.7992101075206091,0.7998439328911432
+ben_sarc_binary,banglasarc_binary,False,464,0,464,0.5908224422442244,0.6400862068965517
+ben_sarc_binary,banglasarc3_binary,False,791,0,791,0.6406721275424293,0.6422250316055625
+banglasarc_binary,ben_sarc_binary,False,2563,0,2563,0.346434538989289,0.49941474834178695
+banglasarc_binary,banglasarc_binary,True,464,0,464,0.976550497291178,0.978448275862069
+banglasarc_binary,banglasarc3_binary,False,791,29,762,0.33838156167906147,0.4868766404199475
+banglasarc3_binary,ben_sarc_binary,False,2563,0,2563,0.6780431607125965,0.6808427623878268
+banglasarc3_binary,banglasarc_binary,False,464,28,436,0.6051549982584465,0.6123853211009175
+banglasarc3_binary,banglasarc3_binary,True,791,0,791,0.7659033282408556,0.7661188369152971

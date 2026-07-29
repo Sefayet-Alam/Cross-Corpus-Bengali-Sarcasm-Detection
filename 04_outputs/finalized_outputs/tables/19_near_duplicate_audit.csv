@@ -1,0 +1,7 @@
+source,target,n_target_test,removed_exact,removed_near_key_extra,removed_fuzzy_extra,removed_total_strict,n_remaining_strict,cosine_threshold
+ben_sarc_binary,banglasarc_binary,464,0,2,0,2,462,0.92
+ben_sarc_binary,banglasarc3_binary,791,0,0,0,0,791,0.92
+banglasarc_binary,ben_sarc_binary,2563,0,0,0,0,2563,0.92
+banglasarc_binary,banglasarc3_binary,791,29,61,6,96,695,0.92
+banglasarc3_binary,ben_sarc_binary,2563,0,2,0,2,2561,0.92
+banglasarc3_binary,banglasarc_binary,464,28,59,5,92,372,0.92

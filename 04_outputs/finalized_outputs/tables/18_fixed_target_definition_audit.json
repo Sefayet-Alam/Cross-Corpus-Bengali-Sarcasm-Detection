@@ -1,0 +1,20 @@
+[
+  {
+    "target": "ben_sarc_binary",
+    "dataset_defined_n": 2563,
+    "prediction_intersection_n": 2563,
+    "sets_identical": true
+  },
+  {
+    "target": "banglasarc_binary",
+    "dataset_defined_n": 436,
+    "prediction_intersection_n": 436,
+    "sets_identical": true
+  },
+  {
+    "target": "banglasarc3_binary",
+    "dataset_defined_n": 762,
+    "prediction_intersection_n": 762,
+    "sets_identical": true
+  }
+]

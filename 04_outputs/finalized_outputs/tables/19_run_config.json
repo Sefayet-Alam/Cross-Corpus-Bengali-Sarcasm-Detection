@@ -1,0 +1,112 @@
+{
+  "config_hash": "6970de89ef36b0ad",
+  "frozen_at": "2026-07-29T15:34:52.084047+00:00",
+  "git": {
+    "commit": "a64ee91ba5ee8b30b94f66437afb4228bce5414b",
+    "dirty": true
+  },
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.6",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.0"
+  },
+  "stages": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": false
+  },
+  "config": {
+    "notebook": "19_ncaa_mitigation_and_power.ipynb",
+    "model_name": "csebuetnlp/banglabert",
+    "corpora": [
+      "ben_sarc_binary",
+      "banglasarc_binary",
+      "banglasarc3_binary"
+    ],
+    "systems": {
+      "vanilla": {
+        "adversarial": null,
+        "fgm_epsilon": null
+      },
+      "fgm": {
+        "adversarial": "fgm",
+        "fgm_epsilon": 0.5
+      }
+    },
+    "seeds_nb18": [
+      42,
+      1,
+      7,
+      123,
+      2024
+    ],
+    "seeds_new": [
+      2025,
+      13,
+      77,
+      314,
+      1337
+    ],
+    "seeds_10": [
+      42,
+      1,
+      7,
+      123,
+      2024,
+      2025,
+      13,
+      77,
+      314,
+      1337
+    ],
+    "loco_seeds": [
+      42,
+      1,
+      7,
+      123,
+      2024
+    ],
+    "label_eff_seeds": [
+      42,
+      1,
+      7
+    ],
+    "dann_seeds": [
+      42,
+      1,
+      7
+    ],
+    "k_grid": [
+      0,
+      25,
+      50,
+      100,
+      250,
+      500,
+      1000
+    ],
+    "max_length": 128,
+    "epochs": 8,
+    "patience": 2,
+    "batch_size": 32,
+    "eval_batch_size": 64,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "fewshot_lr": 2e-05,
+    "fewshot_batch": 16,
+    "leakage_policy": "off-diagonal target test excludes normalized exact overlaps with source train+val+test; pooled/LOCO sources use the union of all constituent corpora for the same filter",
+    "selection_policy": "checkpoint and temperature selected on source validation only; test never used",
+    "fewshot_policy": "k-shot examples sampled stratified from the target TRAIN split only",
+    "primary_uncertainty": "Student-t 95% CI across training seeds",
+    "paired_test": "exact sign-flip permutation over matched seed differences; Holm over 9 cells"
+  }
+}

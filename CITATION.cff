@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the associated article."
+title: "Cross-Corpus Bengali Sarcasm Detection"
+abstract: >-
+  Code and results for a cross-corpus evaluation of Bengali sarcasm detection across three
+  human-annotated corpora, including multi-source training, domain-adversarial baselines, and
+  target label-efficiency analysis.
+authors:
+  - name: "Withheld for double-blind review"
+license: MIT
+repository-code: "https://github.com/OWNER/bangla-sarcasm-cross-corpus"

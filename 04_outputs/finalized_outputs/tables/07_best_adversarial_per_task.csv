@@ -1,0 +1,5 @@
+task,config,method,val_macro_f1,test_macro_f1
+banglasarc3_binary,fgm_e05,fgm,0.7647653601379885,0.752406589649377
+banglasarc3_ternary,fgm_e05,fgm,0.6473671814076304,0.6433828085091317
+banglasarc_binary,freelb_k3,freelb,0.9905836892414074,0.9764872808351068
+ben_sarc_binary,fgm_awp,fgm_awp,0.8102432773805924,0.7993613713427954

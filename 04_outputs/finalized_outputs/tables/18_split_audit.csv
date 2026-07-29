@@ -1,0 +1,10 @@
+corpus,split,n,positive_rate
+ben_sarc_binary,train,20498,0.5
+ben_sarc_binary,val,2562,0.5
+ben_sarc_binary,test,2563,0.500195083886071
+banglasarc_binary,train,3708,0.3581445523193096
+banglasarc_binary,val,463,0.35853131749460043
+banglasarc_binary,test,464,0.3577586206896552
+banglasarc3_binary,train,6328,0.49920986093552466
+banglasarc3_binary,val,791,0.4993678887484197
+banglasarc3_binary,test,791,0.4993678887484197

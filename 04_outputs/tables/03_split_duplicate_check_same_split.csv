@@ -1,0 +1,4 @@
+split,rows,unique_texts,duplicate_rows_inside_split
+test,2563,2563,0
+train,20498,20498,0
+val,2562,2562,0

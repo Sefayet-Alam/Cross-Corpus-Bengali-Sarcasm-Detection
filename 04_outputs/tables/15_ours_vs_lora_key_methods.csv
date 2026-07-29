@@ -1,0 +1,14 @@
+label,group,macro_f1
+"Lora reproduced classical
+MultinomialNB",Lora reproduced,0.6602
+"Lora reproduced DL
+BiLSTM_GloVe_same_split",Lora reproduced,0.7126974780188533
+"Lora reproduced frozen transfer
+bengali-bert",Lora reproduced,0.7444245466554436
+Lora reported best,Lora reported,0.7547
+"This work pipeline search
+P6_maxlen192_fgm_llrd",This work,0.8021540984280471
+"This work single model
+BanglaBERT baseline",This work,0.8024879244045522
+"This work ensemble
+stacking_LR",This work,0.811539670662671

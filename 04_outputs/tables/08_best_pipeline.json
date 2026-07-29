@@ -1,0 +1,6 @@
+{
+  "best_pipeline": "P1_fullft_fgm",
+  "selection_metric": "val_macro_f1",
+  "val_macro_f1": 0.804366789819376,
+  "test_macro_f1_observed_but_not_used_for_selection": 0.7992101075206091
+}
