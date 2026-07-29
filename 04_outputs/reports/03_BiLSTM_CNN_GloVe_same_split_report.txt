@@ -5,7 +5,7 @@ Batch size: 16
 Max length: 100
 Vocab size: 10000
 Embedding dim: 300
-GloVe path: /Users/sefayet/Desktop/Github/Sarcasm_detection/01_data/external/glove/bn_glove.39M.300d.txt
+GloVe path: /Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/01_data/external/glove/bn_glove.39M.300d.txt
 GloVe coverage: 0.890989
 Epochs ran: 14
 Best epoch: 12

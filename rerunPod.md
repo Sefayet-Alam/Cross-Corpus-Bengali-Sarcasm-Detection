@@ -80,8 +80,8 @@ This keeps HuggingFace and pip downloads in `/workspace`, not the smaller root d
 ## 4. Configure Git
 
 ```bash
-git config --global user.name "Sefayet-Alam"
-git config --global user.email "sefayetalam14@gmail.com"
+git config --global user.name "<AUTHOR>"
+git config --global user.email "<AUTHOR>14@gmail.com"
 git config --global credential.helper "cache --timeout=86400"
 ```
 
@@ -100,14 +100,14 @@ cd /workspace
 If this is a completely new pod and the repo is not already there:
 
 ```bash
-git clone https://github.com/Sefayet-Alam/Sarcasm_detection.git
+git clone https://github.com/<AUTHOR>/Sarcasm_detection.git
 cd Sarcasm_detection
 ```
 
 When GitHub asks:
 
 ```text
-Username: Sefayet-Alam
+Username: <AUTHOR>
 Password: paste your GitHub token
 ```
 
@@ -434,12 +434,12 @@ echo 'export TRANSFORMERS_CACHE=/workspace/.cache/huggingface' >> ~/.bashrc
 echo 'export HF_DATASETS_CACHE=/workspace/.cache/huggingface/datasets' >> ~/.bashrc
 echo 'export PIP_CACHE_DIR=/workspace/.cache/pip' >> ~/.bashrc
 
-git config --global user.name "Sefayet-Alam"
-git config --global user.email "sefayetalam14@gmail.com"
+git config --global user.name "<AUTHOR>"
+git config --global user.email "<AUTHOR>14@gmail.com"
 git config --global credential.helper "cache --timeout=86400"
 
 cd /workspace
-git clone https://github.com/Sefayet-Alam/Sarcasm_detection.git
+git clone https://github.com/<AUTHOR>/Sarcasm_detection.git
 cd Sarcasm_detection
 
 pip install transformers==4.40.0 \

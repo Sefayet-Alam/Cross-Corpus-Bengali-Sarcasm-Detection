@@ -6,7 +6,7 @@ This repository contains the data-audit, baseline-reproduction, fine-tuning, adv
 
 > **Beyond In-Domain Accuracy: Cross-Corpus Bengali Sarcasm Detection Under Normalized Exact-Match Control**
 
-**Authors:** Khandoker Sefayet Alam, Md. Rabiul Islam, Md. Faysal Ahamed, and Muhammad E. H. Chowdhury  
+**Authors:** <AUTHOR>, Md. Rabiul Islam, Md. Faysal Ahamed, and Muhammad E. H. Chowdhury  
 **Affiliations:** Rajshahi University of Engineering & Technology (RUET), Bangladesh, and Qatar University, Qatar
 
 The project is an evaluation-centered reassessment rather than a claim of a new state-of-the-art architecture. Its central question is whether strong in-domain Bengali sarcasm classifiers remain reliable when evaluated on a different corpus with the same nominal binary task.
@@ -265,10 +265,10 @@ Until a final bibliographic record is available, cite the repository as:
 @misc{alam2026beyondindomain,
   title        = {Beyond In-Domain Accuracy: Cross-Corpus Bengali Sarcasm
                   Detection Under Normalized Exact-Match Control},
-  author       = {Alam, Khandoker Sefayet and Islam, Md. Rabiul and
+  author       = {Alam, Khandoker <AUTHOR> and Islam, Md. Rabiul and
                   Ahamed, Md. Faysal and Chowdhury, Muhammad E. H.},
   year         = {2026},
-  howpublished = {\url{https://github.com/Sefayet-Alam/Beyond_In_domain_Bangla_Sarcasm_Detection}},
+  howpublished = {\url{https://github.com/<AUTHOR>/Beyond_In_domain_Bangla_Sarcasm_Detection}},
   note         = {Reproducibility repository and sanitized numerical artifacts}
 }
 ```

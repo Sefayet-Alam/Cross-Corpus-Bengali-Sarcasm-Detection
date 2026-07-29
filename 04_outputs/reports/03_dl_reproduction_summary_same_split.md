@@ -34,9 +34,9 @@ No notebook-specific output folder is used.
 
 ## Main saved files
 
-- `/Users/sefayet/Desktop/Github/Sarcasm_detection/04_outputs/tables/03_dl_results.csv`
-- `/Users/sefayet/Desktop/Github/Sarcasm_detection/04_outputs/tables/03_dl_reference_gap_same_split.csv`
-- `/Users/sefayet/Desktop/Github/Sarcasm_detection/04_outputs/tables/03_dl_results_same_split.tex`
-- `/Users/sefayet/Desktop/Github/Sarcasm_detection/04_outputs/figures/03_dl_macro_f1_vs_reference_same_split.png`
-- `/Users/sefayet/Desktop/Github/Sarcasm_detection/04_outputs/figures/03_dl_accuracy_vs_reference_same_split.png`
-- `/Users/sefayet/Desktop/Github/Sarcasm_detection/04_outputs/figures/03_dl_macro_f1_gap_vs_reference_same_split.png`
+- `/Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/04_outputs/tables/03_dl_results.csv`
+- `/Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/04_outputs/tables/03_dl_reference_gap_same_split.csv`
+- `/Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/04_outputs/tables/03_dl_results_same_split.tex`
+- `/Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/04_outputs/figures/03_dl_macro_f1_vs_reference_same_split.png`
+- `/Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/04_outputs/figures/03_dl_accuracy_vs_reference_same_split.png`
+- `/Users/<AUTHOR>/Desktop/Github/Sarcasm_detection/04_outputs/figures/03_dl_macro_f1_gap_vs_reference_same_split.png`

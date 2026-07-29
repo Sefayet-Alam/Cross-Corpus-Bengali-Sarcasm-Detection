@@ -1,7 +1,7 @@
 # Experiment Log — Robust Bengali Sarcasm Detection (MASTER FILE)
 
 **Project:** Robust Bengali Sarcasm Detection: Author-Method Reproduction, Adversarial Fine-Tuning, and Cross-Dataset Evaluation
-**Researcher:** Khandoker Sefayet Alam (RUET)
+**Researcher:** <AUTHOR> (RUET)
 **Repo root:** `Sarcasm_detection` (GitHub layout mirrors this repo; outputs live in `04_outputs/`)
 **Purpose:** Single zero-to-defense reference for the project. A reader should be able to start here, understand the whole study, and answer most viva or seminar questions without opening every notebook.
 
@@ -49,7 +49,7 @@ Full fine-tuning of BanglaBERT is the move that matters: it clears the reproduce
 > **Headline result.** Proposed single model (BanglaBERT + FGM+AWP, dual-pool head) reaches **macro-F1 = 0.8038, accuracy = 80.41%** on Ben-Sarc binary (seed-42 test split). A stacking ensemble reaches **0.8115** (best overall). The single model beats the strongest reproduced baseline (frozen Bengali-BERT, 0.7444 macro-F1) by **+0.0594 macro-F1**, McNemar *p* ≈ 1.3×10⁻¹², Bonferroni-significant. Within the strong-transformer family the differences are **not** statistically separable.
 
 ### Overall workflow
-![Methodology overview](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/F1_Methodology_overview.png)
+![Methodology overview](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/F1_Methodology_overview.png)
 
 ---
 
@@ -114,9 +114,9 @@ Bengali sarcasm is hard: it is context-sensitive, reverses literal meaning, sits
 
 Ben-Sarc is the priority corpus (it is where reproduced baselines and our models meet on identical ground). BanglaSarc tests generalisation; BanglaSarc3 adds the ternary ambiguity study.
 
-![Class distribution](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/01_class_distribution.png)
+![Class distribution](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/01_class_distribution.png)
 
-![Text length distribution](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/01_text_length_distribution.png)
+![Text length distribution](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/01_text_length_distribution.png)
 
 ---
 
@@ -131,7 +131,7 @@ De-duplication and leakage control happen **before** any split is drawn:
 
 Removed: Ben-Sarc 9 dups + 4 conflicts (→ 25,623); BanglaSarc 477 dups (→ 4,635); BanglaSarc3 109 dups + 52 conflicts (→ 11,911). Reports: `04_outputs/tables/01_dedup_report.csv`, `01_split_summary.csv`, `01_cross_corpus_overlap.csv`.
 
-![Data prep & leakage control](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/F4_Data_Leakage_Control.png)
+![Data prep & leakage control](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/F4_Data_Leakage_Control.png)
 
 ---
 
@@ -203,9 +203,9 @@ BanglaBERT (`csebuetnlp/banglabert`), fully fine-tuned. Max-len 192, batch 32, b
 
 Test: macro-F1 **0.8038**, accuracy **0.8041**, bootstrap 95% CI **[0.7881, 0.8180]**. Full config: `04_outputs/tables/09b_fgm_awp_config.json`.
 
-![Proposed model](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/F2_Proposed_Method.png)
+![Proposed model](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/F2_Proposed_Method.png)
 
-![Adversarial training step](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/F3_Adversial_step.png)
+![Adversarial training step](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/F3_Adversial_step.png)
 
 ---
 
@@ -328,7 +328,7 @@ Off-diagonal collapse of 16–63 points. BanglaSarc is the most insular. Only on
 - Frozen transfer best (`04`): Bengali-BERT (substitute) **0.7444** (gap −0.0103 vs reported 0.7547); Sagorsarker 0.6921; mBERT 0.6916.
 - **Strongest reproduced overall = frozen Bengali-BERT, 0.7444** — the toughest baseline, used in the head-to-head.
 
-![DL reproduction vs reference](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/03_dl_macro_f1_vs_reference_same_split.png)
+![DL reproduction vs reference](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/03_dl_macro_f1_vs_reference_same_split.png)
 
 ### 13.10 Head-to-head (`15`, proposed single vs strongest reproduced; same test split)
 
@@ -341,9 +341,9 @@ Off-diagonal collapse of 16–63 points. BanglaSarc is the most insular. Only on
 
 Ensemble vs reproduced: +6.71 macro-F1. McNemar χ² = 50.34, *p* = 1.3×10⁻¹², Bonferroni-significant.
 
-![Head-to-head](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/15_ours_vs_lora_best.png)
+![Head-to-head](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/15_ours_vs_lora_best.png)
 
-![Grand ranking](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/15_ours_vs_lora_ranking.png)
+![Grand ranking](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/15_ours_vs_lora_ranking.png)
 
 ---
 
@@ -373,7 +373,7 @@ Ensemble vs reproduced: +6.71 macro-F1. McNemar χ² = 50.34, *p* = 1.3×10⁻¹
 
 The label-smoothed proposed model is well calibrated out of the box (T ≈ 0.96 barely changes it). The vanilla baseline is mildly overconfident and fixed by a single temperature. Accuracy/macro-F1 unchanged by scaling.
 
-![Reliability](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/13_reliability.png)
+![Reliability](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/13_reliability.png)
 
 ### 14.3 Error by length (`14`, proposed accuracy)
 
@@ -387,7 +387,7 @@ The label-smoothed proposed model is well calibrated out of the box (T ≈ 0.96 
 
 Peaks on medium-length comments; dips on very short (context-poor) and very long (digressive) ones.
 
-![Length accuracy](https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/14_length_accuracy.png)
+![Length accuracy](https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/14_length_accuracy.png)
 
 ### 14.4 High-confidence errors (`14`)
 
@@ -493,7 +493,7 @@ All paths under `04_outputs/figures/`; render via GitHub **raw** URLs.
 | (extra) | `15_ours_vs_lora_key_methods.png` |
 | (aside) | `15_zihan_leakage_aside.png` |
 
-Raw URL pattern: `https://raw.githubusercontent.com/Sefayet-Alam/Sarcasm_detection/main/04_outputs/figures/<file>`
+Raw URL pattern: `https://raw.githubusercontent.com/<AUTHOR>/Sarcasm_detection/main/04_outputs/figures/<file>`
 
 ---
 

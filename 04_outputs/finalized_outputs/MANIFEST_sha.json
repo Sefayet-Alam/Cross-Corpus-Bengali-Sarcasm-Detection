@@ -2024,12 +2024,12 @@
       "sha256": "aa01dcdaef8eb48ec86827d1f0e4778a4224c17988a7223dc439d3d92da3ed44"
     },
     {
-      "path": "06_thesis/2003121_Progress_Report_Khandoker_Sefayet_Alam.pdf",
+      "path": "06_thesis/2003121_Progress_Report_<AUTHOR>.pdf",
       "bytes": 1503378,
       "sha256": "7c636c1db684d158538e5f8aa109dfdb49efec9e1c90af5afed39a7d7c82497e"
     },
     {
-      "path": "06_thesis/2003121_Progress_Report_Khandoker_Sefayet_Alam_.docx",
+      "path": "06_thesis/2003121_Progress_Report_<AUTHOR>_.docx",
       "bytes": 3255814,
       "sha256": "ede95076e25d6ff20186b6f1066a127b0836d567a51c79153cab9e93b2e61c7c"
     },
