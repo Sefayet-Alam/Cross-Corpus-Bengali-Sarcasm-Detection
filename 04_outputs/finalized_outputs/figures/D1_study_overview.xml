@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="Worked Example" id="K0xy4hxCc8YIZXumZxqR">
-    <mxGraphModel dx="1223" dy="1001" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="280" background="#ffffff" math="0" shadow="0">
+  <diagram name="AgriSense workflow" id="o8jbR47NDl1IAOAWMUNU">
+    <mxGraphModel dx="1172" dy="825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="280" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-98" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=26;fontColor=#000000;fontStyle=1;whiteSpace=wrap;spacing=0;convertToSvg=0;svgWhiteSpace=wrap;" value="Study overview" vertex="1">
-          <mxGeometry height="30" width="400" x="365" y="34" as="geometry" />
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=24;fontColor=#000000;fontStyle=1;whiteSpace=wrap;" value="Study design" vertex="1">
+          <mxGeometry height="30" width="400" x="166" y="3" as="geometry" />
         </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-99" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;1. Data foundation&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Three public corpora&lt;br&gt;Normalize text, deduplicate, and create clean stratified splits&lt;br&gt;&lt;br&gt;Ben-Sarc • BanglaSarc • BanglaSarc3" vertex="1">
-          <mxGeometry height="210" width="290" x="310" y="89" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-100" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;2. Fair reproduction&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Reference baselines&lt;br&gt;Reproduce classical ML, neural, and frozen-encoder transfer on identical clean splits&lt;br&gt;&lt;br&gt;Same data • same split • same metrics" vertex="1">
-          <mxGeometry height="210" width="290" x="310" y="343" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-101" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;3. In-domain benchmark&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Transformer study&lt;br&gt;Evaluate five backbones with head and adversarial ablations&lt;br&gt;&lt;br&gt;Calibration and significance reported" vertex="1">
-          <mxGeometry height="210" width="290" x="310" y="621" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-102" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;4. Cross-corpus generalization&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Transfer evaluation&lt;br&gt;Run the 3 × 3 source-to-target matrix with bootstrap, McNemar, and error analysis&lt;br&gt;&lt;br&gt;Deployment-oriented assessment" vertex="1">
-          <mxGeometry height="210" width="290" x="310" y="886" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-103" edge="1" parent="1" source="DSSoEVEJ0n-xpCNvry4o-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontSize=16;convertToSvg=0;fontFamily=Comic Sans MS;" target="DSSoEVEJ0n-xpCNvry4o-100" value="">
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-16" edge="1" parent="1" source="FGCeM1oUuyjFOZ_fBE1J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FGCeM1oUuyjFOZ_fBE1J-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-104" edge="1" parent="1" source="DSSoEVEJ0n-xpCNvry4o-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontSize=16;convertToSvg=0;fontFamily=Comic Sans MS;" target="DSSoEVEJ0n-xpCNvry4o-101" value="">
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-2" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=14;fontColor=#000000;align=center;verticalAlign=top;spacing=8;" value="&lt;b&gt;&lt;font&gt;1. Corpora and splits&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ben-Sarc • BanglaSarc • BanglaSarc3&lt;br&gt;&lt;br&gt;Harmonise to a binary label space&lt;br&gt;(drop BanglaSarc3 neutral)&lt;br&gt;&lt;br&gt;Normalised exact-match deduplication&lt;br&gt;and label-conflict removal&lt;br&gt;&lt;br&gt;Frozen stratified 80/10/10 splits,&lt;br&gt;hashed and reused everywhere" vertex="1">
+          <mxGeometry height="280" width="230" x="30" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-3" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=14;fontColor=#000000;align=center;verticalAlign=top;spacing=8;" value="&lt;b&gt;&lt;font&gt;2. Directed transfer matrix&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;BanglaBERT trained on each source,&lt;br&gt;evaluated on all three targets&lt;br&gt;&lt;br&gt;3 × 3 = 9 directed cells&lt;br&gt;× 10 matched seeds × 2 systems&lt;br&gt;&lt;br&gt;Off-diagonal targets filtered against&lt;br&gt;the whole source corpus&lt;br&gt;&lt;br&gt;Pre-model shift audit on every pair" vertex="1">
+          <mxGeometry height="239" width="255" x="17.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-18" edge="1" parent="1" source="FGCeM1oUuyjFOZ_fBE1J-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FGCeM1oUuyjFOZ_fBE1J-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-105" edge="1" parent="1" source="DSSoEVEJ0n-xpCNvry4o-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=classic;endFill=1;fontSize=16;convertToSvg=0;fontFamily=Comic Sans MS;" target="DSSoEVEJ0n-xpCNvry4o-102" value="">
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-4" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=14;fontColor=#000000;align=center;verticalAlign=top;spacing=8;" value="&lt;b&gt;&lt;font&gt;3. Strategies needing no&lt;br&gt;target labels&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Fast-gradient adversarial fine-tuning&lt;br&gt;&lt;br&gt;Leave-one-corpus-out multi-source&lt;br&gt;&lt;br&gt;Domain-adversarial training (GRL)&lt;br&gt;&lt;br&gt;Source-validation threshold recalibration&lt;br&gt;&lt;br&gt;&lt;i&gt;Reported separately:&lt;/i&gt; pooled-all, which&lt;br&gt;does see target labels" vertex="1">
+          <mxGeometry height="288" width="255" x="30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-5" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;align=center;verticalAlign=top;spacing=8;" value="&lt;b&gt;&lt;font&gt;4. Target-supervised&lt;br&gt;adaptation&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Fine-tune each source model on&lt;br&gt;&lt;i&gt;k&lt;/i&gt; labelled target examples&lt;br&gt;&lt;br&gt;&lt;i&gt;k&lt;/i&gt; ∈ {0, 25, 50, 100, 250, 500, 1000}&lt;br&gt;drawn from the target &lt;i&gt;train&lt;/i&gt; split only&lt;br&gt;&lt;br&gt;Six directions × seven budgets&lt;br&gt;&lt;br&gt;Recovery measured against the&lt;br&gt;target-trained reference" vertex="1">
+          <mxGeometry height="300" width="255" x="30" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-9" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fontStyle=1;whiteSpace=wrap;" value="Protocol held constant throughout" vertex="1">
+          <mxGeometry height="22" width="400" x="330" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-10" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#909090;strokeWidth=1.2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=left;verticalAlign=middle;spacing=10;" value="&lt;font&gt;Checkpoint, temperature and threshold selected on &lt;b&gt;source validation data only&lt;/b&gt; — no target test set is consulted for any selection decision&amp;nbsp;&amp;nbsp;•&amp;nbsp;&amp;nbsp;Uncertainty reported as Student-&lt;i&gt;t&lt;/i&gt; 95% intervals across training seeds&amp;nbsp;&amp;nbsp;•&amp;nbsp;&amp;nbsp;Adversarial vs vanilla compared by exact sign-flip permutation test on matched seeds with Holm correction over the nine cells&amp;nbsp;&amp;nbsp;•&amp;nbsp;&amp;nbsp;Metrics: macro-F1, accuracy, per-class recall, ECE and Brier before and after source-fitted temperature scaling&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="450" x="305" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-11" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=18;fontColor=#000000;fontStyle=1;whiteSpace=wrap;" value="Principal findings" vertex="1">
+          <mxGeometry height="22" width="110" x="445" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-12" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;1.&lt;/b&gt; Mean macro-F1 falls from&lt;br&gt;&lt;b&gt;0.847&lt;/b&gt; in domain to &lt;b&gt;0.534&lt;/b&gt; across&lt;br&gt;corpora: a 31.3-point loss at&lt;br&gt;0.630 retention" vertex="1">
+          <mxGeometry height="92" width="262" x="437" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-13" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;2.&lt;/b&gt; The corpus scoring &lt;b&gt;0.980&lt;/b&gt;&lt;br&gt;in domain is the weakest source,&lt;br&gt;collapsing to 0.009 and 0.015&lt;br&gt;sarcastic-class recall" vertex="1">
+          <mxGeometry height="92" width="262" x="437" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-14" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;3.&lt;/b&gt; &lt;b&gt;Zero of nine&lt;/b&gt; adversarial cells&lt;br&gt;survive Holm correction; the other&lt;br&gt;label-free strategies move transfer&lt;br&gt;by 0.022 or less" vertex="1">
+          <mxGeometry height="92" width="262" x="438" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-15" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;4.&lt;/b&gt; A median of &lt;b&gt;100 labelled&lt;/b&gt;&lt;br&gt;&lt;b&gt;target examples&lt;/b&gt; recovers 90% of&lt;br&gt;the target-trained reference in&lt;br&gt;five of six directions" vertex="1">
+          <mxGeometry height="92" width="264" x="436" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="FGCeM1oUuyjFOZ_fBE1J-17" edge="1" parent="1" source="FGCeM1oUuyjFOZ_fBE1J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.449;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="FGCeM1oUuyjFOZ_fBE1J-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-106" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;fontStyle=1;whiteSpace=wrap;spacing=0;convertToSvg=0;svgWhiteSpace=wrap;" value="Key findings" vertex="1">
-          <mxGeometry height="20" width="134" x="716" y="183" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-107" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. Cross-corpus macro-F1 can drop by up to 63 points.&lt;/font&gt;" vertex="1">
-          <mxGeometry height="135" width="177" x="694.5" y="225" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-108" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="2. Full fine-tuning drives the main gain; adversarial variants remain within seed noise." vertex="1">
-          <mxGeometry height="111" width="232" x="674" y="376" as="geometry" />
-        </mxCell>
-        <mxCell id="DSSoEVEJ0n-xpCNvry4o-109" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontFamily=Comic Sans MS;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;spacing=6;convertToSvg=0;svgWhiteSpace=wrap;" value="3. Dual pooling with label smoothing improves calibration (ECE 0.055 → 0.022)." vertex="1">
-          <mxGeometry height="110" width="217" x="681.5" y="514" as="geometry" />
-        </mxCell>
+        <mxCell id="8Okpq85_vuw87Kvb7UaG-1" parent="0" />
+        <mxCell id="8Okpq85_vuw87Kvb7UaG-35" parent="0" value="Notes" />
       </root>
     </mxGraphModel>
   </diagram>
