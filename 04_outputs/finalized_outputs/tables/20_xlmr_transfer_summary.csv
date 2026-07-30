@@ -1,0 +1,10 @@
+source,target,in_domain,mean,std,count
+banglasarc3_binary,banglasarc3_binary,True,0.7227885138670919,0.008990637606096528,5
+banglasarc3_binary,banglasarc_binary,False,0.5439388186380402,0.03005118649318908,5
+banglasarc3_binary,ben_sarc_binary,False,0.6453582177980579,0.009288818551114077,5
+banglasarc_binary,banglasarc3_binary,False,0.3470268076193956,0.013063478495998872,5
+banglasarc_binary,banglasarc_binary,True,0.9400053993736595,0.002175638253008257,5
+banglasarc_binary,ben_sarc_binary,False,0.3494724944379946,0.005871081956813824,5
+ben_sarc_binary,banglasarc3_binary,False,0.6473193219008782,0.00695600483291478,5
+ben_sarc_binary,banglasarc_binary,False,0.5046330360719073,0.007589855937629827,5
+ben_sarc_binary,ben_sarc_binary,True,0.7720854839053108,0.006155370118747947,5
