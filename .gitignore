@@ -17,7 +17,6 @@
 /04_outputs/**/14_high_conf_errors.csv
 
 # Ignore generated predictions by default
-/04_outputs/predictions/*
 
 # Re-allow only sanitized public predictions after auditing them
 !/04_outputs/predictions/18_multiseed_cross_corpus/
@@ -136,8 +135,6 @@ api_keys.py
 /01_data/raw/
 
 # ── Quarantine: never publish ───────────────────────────────────────────────
-.private/
-.private/**
 06_thesis/
 05_literature/pdfs/
 /01_data/external/
