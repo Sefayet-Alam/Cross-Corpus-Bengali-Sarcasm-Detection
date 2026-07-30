@@ -23,8 +23,8 @@
 !/04_outputs/predictions/18_multiseed_cross_corpus/*.csv
 
 # Ignore temporary/generated output directories
-/04_outputs/**/runs/
-/04_outputs/**/checkpoints/
+# /04_outputs/**/runs/
+# /04_outputs/**/checkpoints/
 /04_outputs/**/tmp/
 /04_outputs/**/cache/
 
