@@ -1,15 +1,15 @@
 claim_id,metric,value,source_file,config_hash,git_commit,status,manuscript_location,note
-C1_fgm_indomain_mean,macro_f1,0.8472,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,"mean of three diagonal cells, ten seeds"
-C2_fgm_transfer_mean,macro_f1,0.5342,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,"mean of six off-diagonal cells, ten seeds"
-C1_vanilla_indomain_mean,macro_f1,0.8417,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,"mean of three diagonal cells, ten seeds"
-C2_vanilla_transfer_mean,macro_f1,0.5357,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,"mean of six off-diagonal cells, ten seeds"
-C3_min_attainable_p,p,0.00195,04_outputs/finalized_outputs/tables/19_fgm_vs_vanilla_10seed_tests.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,minimum two-sided exact sign-flip p with 10 matched seeds
-C4_n_significant_holm,count,0,04_outputs/finalized_outputs/tables/19_fgm_vs_vanilla_10seed_tests.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,
-C5_loco_gain,delta_macro_f1,0.0552,04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,"LOCO minus mean single-source transfer, averaged over targets"
-C6_retention_single,retention,0.6319,04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,
-C7_retention_loco,retention,0.7026,04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,
-C8_median_k_for_90pct,k,100,04_outputs/finalized_outputs/tables/19_label_efficiency_k_to_reach.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,median labelled target examples to reach 90% of target-trained macro-F1
-C9_pairs_reaching_90pct,count,5/6,04_outputs/finalized_outputs/tables/19_label_efficiency_k_to_reach.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,
-C10_neardup_max_abs_delta,delta_macro_f1,0.0091,04_outputs/finalized_outputs/tables/19_near_duplicate_sensitivity.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,largest change under the strict near-duplicate filter
-C11_threshold_gain_offdiag,delta_macro_f1,0.0028,04_outputs/finalized_outputs/tables/19_threshold_recalibration.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,
-C12_dann_minus_loco,delta_macro_f1,-0.0216,04_outputs/finalized_outputs/tables/19_dann_loco_runs.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,confirmatory,,DANN minus pooled LOCO on held-out corpora
+C1_fgm_indomain_mean,macro_f1,0.8472,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,"mean of three diagonal cells, ten seeds"
+C2_fgm_transfer_mean,macro_f1,0.5342,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,"mean of six off-diagonal cells, ten seeds"
+C1_vanilla_indomain_mean,macro_f1,0.8417,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,"mean of three diagonal cells, ten seeds"
+C2_vanilla_transfer_mean,macro_f1,0.5357,04_outputs/finalized_outputs/tables/19_singlesource_10seed_summary.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,"mean of six off-diagonal cells, ten seeds"
+C3_min_attainable_p,p,0.00195,04_outputs/finalized_outputs/tables/19_fgm_vs_vanilla_10seed_tests.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,minimum two-sided exact sign-flip p with 10 matched seeds
+C4_n_significant_holm,count,0,04_outputs/finalized_outputs/tables/19_fgm_vs_vanilla_10seed_tests.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,
+C5_loco_gain,delta_macro_f1,0.0552,04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,"LOCO minus mean single-source transfer, averaged over targets"
+C6_retention_single,retention,0.6319,04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,
+C7_retention_loco,retention,0.7026,04_outputs/finalized_outputs/tables/19_pooled_vs_single_source.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,
+C8_median_k_for_90pct,k,100,04_outputs/finalized_outputs/tables/19_label_efficiency_k_to_reach.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,median labelled target examples to reach 90% of target-trained macro-F1
+C9_pairs_reaching_90pct,count,5/6,04_outputs/finalized_outputs/tables/19_label_efficiency_k_to_reach.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,
+C10_neardup_max_abs_delta,delta_macro_f1,0.0091,04_outputs/finalized_outputs/tables/19_near_duplicate_sensitivity.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,largest change under the strict near-duplicate filter
+C11_threshold_gain_offdiag,delta_macro_f1,0.0028,04_outputs/finalized_outputs/tables/19_threshold_recalibration.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,
+C12_dann_minus_loco,delta_macro_f1,-0.0216,04_outputs/finalized_outputs/tables/19_dann_loco_runs.csv,6970de89ef36b0ad,a64ee91ba5ee8b30b94f66437afb4228bce5414b,final,,DANN minus pooled LOCO on held-out corpora
