@@ -1,0 +1,4 @@
+corpus,n_rows,n_clusters,n_multi_item_clusters,largest_cluster,rows_in_multi_item_clusters,pct_rows_in_clusters,near_dup_pairs
+ben_sarc_binary,25623,25494,119,4,248,0.97,137
+banglasarc_binary,4635,4498,123,4,260,5.61,146
+banglasarc3_binary,7910,7894,15,3,31,0.39,17

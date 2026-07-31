@@ -1,0 +1,4 @@
+corpus,n_test,test_with_exact_dup_in_train_or_val,test_with_strict_key_dup,test_in_cluster_with_train_or_val,pct_test_leaked,n_test_clean
+ben_sarc_binary,2563,0,9,28,1.09,2535
+banglasarc_binary,464,0,27,25,5.39,439
+banglasarc3_binary,791,0,0,3,0.38,788
