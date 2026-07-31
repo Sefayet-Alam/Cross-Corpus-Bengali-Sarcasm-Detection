@@ -5,8 +5,9 @@
 # ============================================================
 # ── Corpus and derived text data: never commit ──────────────────────────────
 /01_data/raw/
-/01_data/processed/
+/01_data/processed/*
 /01_data/interim/*
+
 
 # Allow only non-text split manifests, if these contain IDs/hashes only
 !/01_data/interim/split_manifests/
